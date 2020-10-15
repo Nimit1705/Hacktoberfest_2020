@@ -12,18 +12,7 @@ def linearsearch(list1,ele):
 
         return(None)
 
-list1=[3,6,9,22,40,62]
+list1=[3,6,9,12,30,52]
 
 value=int(input("Enter value to be searched:"))
 linearsearch(list1,value)
-'''
-
-def factorial(num):
-    fact=1
-    for i in range(1,num+1):
-        fact=fact*i
-    print(fact)
-#main--
-number=int(input("enter a no.:"))
-factorial(number)
-'''
